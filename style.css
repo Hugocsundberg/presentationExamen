@@ -1,0 +1,12 @@
+@keyframes comeIn {
+  from {
+    transform: translateY(-44px);
+  }
+  to {
+    transform: translateY(0px);
+  }
+}
+
+.comeIn {
+  animation: comeIn 3s 10s linear backwards;
+}
